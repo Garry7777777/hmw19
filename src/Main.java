@@ -87,8 +87,8 @@ public class Main {
         int positiveInt = 3;
         int negativeInt = -2;
 
-        System.out.println(ternaryOperator(isPositive, functionTrue, functionFalse).apply(positiveInt));
-        System.out.println(ternaryOperator(isPositive, functionTrue, functionFalse).apply(negativeInt));
+        System.out.println( ternaryOperator(isPositive, functionTrue, functionFalse).apply(positiveInt) );
+        System.out.println( ternaryOperator(isPositive, functionTrue, functionFalse).apply(negativeInt) );
     }
 
 
